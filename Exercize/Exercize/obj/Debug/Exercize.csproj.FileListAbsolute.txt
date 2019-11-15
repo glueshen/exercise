@@ -1,0 +1,14 @@
+C:\Development\Exercises from printMailSolution\Exercize\Exercize\bin\Debug\Exercize.exe.config
+C:\Development\Exercises from printMailSolution\Exercize\Exercize\bin\Debug\Exercize.exe
+C:\Development\Exercises from printMailSolution\Exercize\Exercize\bin\Debug\Exercize.pdb
+C:\Development\Exercises from printMailSolution\Exercize\Exercize\obj\Debug\Exercize.csprojAssemblyReference.cache
+C:\Development\Exercises from printMailSolution\Exercize\Exercize\obj\Debug\Exercize.csproj.CoreCompileInputs.cache
+C:\Development\Exercises from printMailSolution\Exercize\Exercize\obj\Debug\Exercize.exe
+C:\Development\Exercises from printMailSolution\Exercize\Exercize\obj\Debug\Exercize.pdb
+c:\Development\Exercises 1\Exercize\Exercize\bin\Debug\Exercize.exe.config
+c:\Development\Exercises 1\Exercize\Exercize\bin\Debug\Exercize.exe
+c:\Development\Exercises 1\Exercize\Exercize\bin\Debug\Exercize.pdb
+c:\Development\Exercises 1\Exercize\Exercize\obj\Debug\Exercize.csprojAssemblyReference.cache
+c:\Development\Exercises 1\Exercize\Exercize\obj\Debug\Exercize.csproj.CoreCompileInputs.cache
+c:\Development\Exercises 1\Exercize\Exercize\obj\Debug\Exercize.exe
+c:\Development\Exercises 1\Exercize\Exercize\obj\Debug\Exercize.pdb
