@@ -9,6 +9,7 @@ namespace Exercize
     {
         static void Main(string[] args)
         {
+            CallDivisors();
             //check any integer 
             IsNarcistic();
            
@@ -47,6 +48,32 @@ namespace Exercize
             GetNicePersons(randomNames, lookingForLastName,lookingForFirstName);            
 
             Console.ReadKey();
+        }
+
+
+        private static void CallDivisors()
+        {
+            Console.WriteLine("Please enter integer bigger then 1 :");
+            int number = Convert.ToInt32(Console.ReadLine());            
+            Console.WriteLine("yure answer is : {0}" , String.Join(" ,",Divisors(number)));
+        }
+        public static int[] Divisors(int n)
+        {
+
+            if (n > 1)
+            {
+                List<int> list = new List<int>();
+
+                for (int i = 2; i < n; i++)
+                {
+                    if (n % i == 0)
+                    {
+                        list.Add(i);
+                    }
+                }
+                return list.ToArray();
+            }
+            return null;
         }
 
         private static void IsNarcistic() {
