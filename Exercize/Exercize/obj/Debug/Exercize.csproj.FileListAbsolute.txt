@@ -12,3 +12,9 @@ c:\Development\Exercises 1\Exercize\Exercize\obj\Debug\Exercize.csprojAssemblyRe
 c:\Development\Exercises 1\Exercize\Exercize\obj\Debug\Exercize.csproj.CoreCompileInputs.cache
 c:\Development\Exercises 1\Exercize\Exercize\obj\Debug\Exercize.exe
 c:\Development\Exercises 1\Exercize\Exercize\obj\Debug\Exercize.pdb
+C:\Developer\exercise\Exercize\Exercize\bin\Debug\Exercize.exe.config
+C:\Developer\exercise\Exercize\Exercize\bin\Debug\Exercize.exe
+C:\Developer\exercise\Exercize\Exercize\bin\Debug\Exercize.pdb
+C:\Developer\exercise\Exercize\Exercize\obj\Debug\Exercize.csprojAssemblyReference.cache
+C:\Developer\exercise\Exercize\Exercize\obj\Debug\Exercize.exe
+C:\Developer\exercise\Exercize\Exercize\obj\Debug\Exercize.pdb

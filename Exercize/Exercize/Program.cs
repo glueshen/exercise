@@ -9,6 +9,9 @@ namespace Exercize
     {
         static void Main(string[] args)
         {
+            //check any integer 
+            IsNarcistic();
+           
             // Empty list for prime numbers
             List<int> primeNumbers = new List<int>();
             // Array arr for testing purposes
@@ -46,7 +49,38 @@ namespace Exercize
             Console.ReadKey();
         }
 
-        private static void GetNicePersons(string randomNames, string lookingForLastName, string lookingForFirstName)
+        private static void IsNarcistic() {
+            Console.WriteLine("Please enter integer :");
+            int number = Convert.ToInt32(Console.ReadLine());
+            string status = (!Narcissistic(number)) ? "notNarcissistic" : "Narcissistic";            
+            Console.WriteLine("Youre number equal {0} and it is {1}", number, status);
+        }
+        private static bool Narcissistic(int value)
+        {
+            //using Linq
+            var str = value.ToString();
+            return str.Sum(c => Math.Pow(Convert.ToInt16(c.ToString()), str.Length)) == value;
+            // next it is mine without Math.Pow()
+            //string str = Convert.ToString(value);
+            //int length = str.Length;
+            //int compareValue = 0;
+            //foreach (var item in str )
+            //{
+            //    int i = Convert.ToInt32(item.ToString());
+            //    int result = i;
+            //    int will = length;
+
+            //    while (will > 1)
+            //    {
+            //        result = result * i;
+            //        will-- ;
+            //    }
+            //    compareValue += result;
+            //}
+            
+            //return (compareValue == value) ? true : false;
+        }
+            private static void GetNicePersons(string randomNames, string lookingForLastName, string lookingForFirstName)
         {           
             string names = FindName.GetRightName(randomNames, lookingForLastName, lookingForFirstName);
             Console.WriteLine(names);
